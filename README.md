@@ -4,10 +4,10 @@ A demo implemtation of [phi-el/CefBrowser](https://github.com/phi-el/CefBrowser)
 Ensure that you have installed .net v4.5.2 before opening any solution file!
 
 ## Steps made to get CefBrowser working
- - cd into the directory and "git clone https://github.com/phi-el/CefBrowser.git"
+ - cd into the directory and "git submodule add https://github.com/phi-el/CefBrowser.git"
  - check dependencies of CefBrowser (@ the moment: [ExceptionHandling](https://github.com/phi-el/ExceptionHandling), [EncodingEx](https://github.com/phi-el/EncodingEx), [HashingEx](https://github.com/phi-el/HashingEx), [RPC-Communication](https://github.com/phi-el/rpc-communication-net2), [SerializationDotNet2](https://github.com/phi-el/SerializiationDotNet2), [IoHelper](https://github.com/phi-el/IoHelper)), 
- - clone the dependencies to the root folder, so that CefBrowser and the others are in the same folder where you will create your unique project
- - open each .sln file in vs-studio, recover nuget-packages, open CefBrowser at the end!
+ - clone the dependencies to the root folder, so that CefBrowser and the others are in the same folder where you will create your unique project with **git submodule add XXX**
+ - open each .sln file in vs-studio, try to rebuild, recover nuget-packages if needed, open CefBrowser at the end!
  - close all projects
  - create vs-studio project in root folder
  - add CefBrowser.sln projectmap
@@ -19,6 +19,8 @@ Ensure that you have installed .net v4.5.2 before opening any solution file!
  - test
  - and so on...
 
-
 ### Why the f\*ck do I have to clone projects this way?
 Cause it was the easiest way to keep sln files seperate of each other and with this way it's easier to maintain all the solutions
+
+## Using CefBrowser
+**TODO**

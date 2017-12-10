@@ -1,0 +1,21 @@
+[submodule "ExceptionHandling"]
+	path = ExceptionHandling
+	url = https://github.com/phi-el/ExceptionHandling.git
+[submodule "EncodingEx"]
+	path = EncodingEx
+	url = https://github.com/phi-el/EncodingEx.git
+[submodule "HashingEx"]
+	path = HashingEx
+	url = https://github.com/phi-el/HashingEx.git
+[submodule "rpc-communication-net2"]
+	path = rpc-communication-net2
+	url = https://github.com/phi-el/rpc-communication-net2.git
+[submodule "SerializationDotNet2"]
+	path = SerializationDotNet2
+	url = https://github.com/phi-el/SerializationDotNet2.git
+[submodule "IoHelper"]
+	path = IoHelper
+	url = https://github.com/phi-el/IoHelper.git
+[submodule "CefBrowser"]
+	path = CefBrowser
+	url = https://github.com/phi-el/CefBrowser.git
